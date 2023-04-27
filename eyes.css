@@ -1,0 +1,48 @@
+body{
+  background: url(./Dog.jpg);
+  height: 950px;
+  background-attachment: fixed;
+  background-position-x: 50%; 
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1.5px 1.5px white;
+}
+
+.eyes {
+  position: fixed;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: fixed;
+  text-align: center;
+}
+
+.eye {
+  width: 102px;
+  height: 90px;
+  background: #fff;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 65px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width: 10px;
+  height: 10px;
+  border: 30px solid black;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
